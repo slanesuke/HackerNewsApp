@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import UIKit
 
 @main
+
 struct HackerNewsAPIAppApp: App {
+
+    init(){
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.orange]
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
